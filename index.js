@@ -1,0 +1,6 @@
+const path = require('path')
+const pathResolve = __dirname.split(path.sep)
+console.log(path.sep)
+console.log(__dirname)
+console.log(pathResolve)
+console.log(pathResolve.join('/'))
